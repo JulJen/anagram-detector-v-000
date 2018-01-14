@@ -2,13 +2,13 @@
 require 'pry'
 
 class Anagram
-  attr_accessor :anagram
+  attr_accessor :words
 
-  def initialize(anagram)
-    @anagram = anagram
+  def initialize(words)
+    @words= words
   end
 
-  def match(words)
+  def match(word)
 
 binding.pry
 
