@@ -17,10 +17,6 @@ binding.pry
     # anagrams.values
     # words = line.chomp
     # words.split('').sort!.join('') += word
-  end
+
 
   # You will compare each word of that array to the word that the Anagram class is initialized with.
-
-
-
-end
