@@ -11,18 +11,11 @@ class Anagram
   def match(word)
 
 binding.pry
-
     words.each do |word|
-    #   anagrams[word.downcase.split('').sort.join] ||=[]
-    #   anagrams[word.downcase.split('').sort.join] << word
-    # end
-    # anagrams.values
-    # words = line.chomp
-    # words.split('').sort!.join('') += word
-  end
-
+      anagrams[word.downcase.split('').sort.join] ||=[]
+      anagrams[word.downcase.split('').sort.join] << word
+    end
+    anagrams.values
   # You will compare each word of that array to the word that the Anagram class is initialized with.
-
-
 
 end
