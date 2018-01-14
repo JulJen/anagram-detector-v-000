@@ -12,8 +12,8 @@ class Anagram
 
 binding.pry
     # words.each do |word|
-    word.collect do |word|
-    word.chars.sort.join
+    word.collect do |w|
+    w.chars.sort.join
   end
 
   # You will compare each word of that array to the word that the Anagram class is initialized with.
