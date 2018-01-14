@@ -12,7 +12,7 @@ class Anagram
 
 binding.pry
 
-    # words.each do |word|
+    words.each do |word|
     #   anagrams[word.downcase.split('').sort.join] ||=[]
     #   anagrams[word.downcase.split('').sort.join] << word
     # end
