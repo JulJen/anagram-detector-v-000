@@ -2,7 +2,7 @@
 require 'pry'
 
 class Anagram
-  attr_accessor :wor
+  attr_accessor :anagram
 
   def initialize(anagram)
     @anagram = anagram
