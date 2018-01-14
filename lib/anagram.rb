@@ -1,1 +1,18 @@
 # Your code goes here!
+require 'pry'
+
+class Anagram
+  attr_accessor :anagram
+
+  def initialize(anagram)
+    @anagram = anagram
+  end
+
+  def self.match(words)
+  end
+  
+  # You will compare each word of that array to the word that the Anagram class is initialized with.
+
+
+
+end
