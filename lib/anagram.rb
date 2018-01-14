@@ -9,8 +9,14 @@ class Anagram
   end
 
   def self.match(words)
+    anagrams={}
+    words.each do |word|
+      anagrams[word.downcase.split('').sort.join] ||=[]
+      anagrams[word.downcase.split('').sort.join] << word
+    end
+    anagrams.values
     # words = line.chomp
-    words.split('').sort!.join('') += word
+    # words.split('').sort!.join('') += word
   end
 
   # You will compare each word of that array to the word that the Anagram class is initialized with.
