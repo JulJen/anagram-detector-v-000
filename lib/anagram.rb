@@ -12,9 +12,9 @@ class Anagram
 
 binding.pry
     # words.each do |word|
-    array.collect do |word|
+    word.collect do |word|
     word.chars.sort.join
-  end 
+  end
 
   # You will compare each word of that array to the word that the Anagram class is initialized with.
 
