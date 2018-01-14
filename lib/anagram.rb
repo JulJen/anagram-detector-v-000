@@ -9,8 +9,10 @@ class Anagram
   end
 
   def self.match(words)
+    # words = line.chomp
+    words[word.split('').sort!.join('')] += [word]
   end
-  
+
   # You will compare each word of that array to the word that the Anagram class is initialized with.
 
 
